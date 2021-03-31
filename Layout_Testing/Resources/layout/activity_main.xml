@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/MainActivityTheme_Edit">
+
+    <Button
+        android:text="button1"
+        android:textStyle="bold"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/button2"
+        android:background="#ff637a67" />
+
+    <Button
+        android:text="button2"
+        android:textStyle="bold"
+        android:layout_width="98dp"
+        android:layout_height="68dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="449dp"
+        android:id="@+id/button1"
+        android:background="#ff637a67" />
+    
+</RelativeLayout>
