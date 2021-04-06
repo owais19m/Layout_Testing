@@ -5,6 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@mipmap/MainActivityTheme_Edit">
+    <Button
+        android:text="button6"
+        android:textStyle="bold"
+        android:layout_width="98dp"
+        android:layout_height="45dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="16dp"
+        android:id="@+id/button2"
+        android:background="#ff637a67" />
 
     <Button
         android:text="button1"
@@ -27,5 +37,60 @@
         android:layout_marginTop="449dp"
         android:id="@+id/button1"
         android:background="#ff637a67" />
+
+     <Button
+        android:text="button3"
+        android:textStyle="bold"
+        android:layout_width="98dp"
+        android:layout_height="68dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="449dp"
+        android:id="@+id/button3"
+        android:background="#ff637a67" />
+
+      <Button
+        android:text="M1"
+        android:textStyle="bold"
+        android:layout_width="93dp"
+        android:layout_height="55dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="459dp"
+        android:id="@+id/button4"
+        android:background="#ff637a67" />
+
+     <Button
+        android:text="button5"
+        android:textStyle="bold"
+        android:layout_width="98dp"
+        android:layout_height="45dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="556dp"
+        android:id="@+id/button5"
+        android:background="#ff637a67" />
+
+    <Button
+        android:text="button4"
+        android:textStyle="bold"
+        android:layout_width="98dp"
+        android:layout_height="45dp"
+        android:padding="15dp"       
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="556dp"
+        android:id="@+id/button6"
+        android:background="#ff637a67" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="00:00"
+        android:textStyle="bold"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="556dp"/>
+
+    
     
 </RelativeLayout>
